@@ -6,9 +6,9 @@ body {
   color: #253a55;
 }
 
-.site-title {
-    text-transform: uppercase;
-    font-weight: bold;
+h1 {
+    text-transform: uppercase !important;
+    font-weight: bold !important;
 }
 
 .container {
