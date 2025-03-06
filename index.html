@@ -7,14 +7,15 @@
   <style>
     /* --------- VARIABLES --------- */
     :root {
-      --primary-color: #FFD600;  /* Bright Yellow */
-      --secondary-color: #0066FF; /* Bright Blue */
+      --primary-color: #e4b22b;  /* Bright Yellow */
+      --secondary-color: #253a55; /* Bright Blue */
       --dark-text: #333;
       --light-text: #fff;
       --body-bg: #fff;
       --section-padding: 60px;
       --transition-speed: 0.3s;
       --max-width: 1200px;
+      --font-family: "Century Gothic", sans-serif;
     }
 
     /* --------- RESET & GLOBAL STYLES --------- */
@@ -25,7 +26,7 @@
       scroll-behavior: smooth;
     }
     body {
-      font-family: Arial, sans-serif;
+      font-family: var(--font-family);
       background-color: var(--body-bg);
       color: var(--dark-text);
       line-height: 1.6;
