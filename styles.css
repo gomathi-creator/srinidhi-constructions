@@ -6,6 +6,11 @@ body {
   color: #253a55;
 }
 
+.site-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .container {
   text-align: center;
   padding: 20px;
