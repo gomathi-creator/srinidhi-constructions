@@ -36,6 +36,12 @@ body {
   margin-top: 20px;
 }
 
+.reviews, .client-feedback {
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+}
+
 .cta-button {
   background-color: #253a55;
   border: none;
