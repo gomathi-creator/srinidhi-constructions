@@ -61,3 +61,8 @@ body {
     font-weight: bold !important;
     color: #253a55;
 }
+
+div.logo span {
+    text-transform: uppercase !important;
+}
+
