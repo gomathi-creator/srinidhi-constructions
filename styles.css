@@ -6,11 +6,6 @@ body {
   color: #253a55;
 }
 
-.logo span {
-    text-transform: uppercase !important;
-    font-weight: bold !important;
-}
-
 .container {
   text-align: center;
   padding: 20px;
@@ -59,4 +54,10 @@ body {
   font-size: 200%; 
   font-weight: bold;
   color: #e4b22b;
+}
+
+.logo span {
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    color: #253a55;
 }
