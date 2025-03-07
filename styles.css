@@ -6,7 +6,7 @@ body {
   color: #253a55;
 }
 
-h1 {
+.logo span {
     text-transform: uppercase !important;
     font-weight: bold !important;
 }
