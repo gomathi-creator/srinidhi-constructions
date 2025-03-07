@@ -62,28 +62,19 @@ body {
     color: #253a55;
 }
 
-.reviews {
+#location {
     text-align: center;
-    width: 100%;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 40px auto;
+    max-width: 800px;
 }
 
-.review-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.review-card {
-    background-color: #f8f8f8;
-    padding: 15px;
+.map-container {
+    margin-top: 20px;
     border-radius: 10px;
-    width: 30%;
-    min-width: 250px;
-    text-align: left;
-    border: 1px solid red;
+    overflow: hidden;
 }
 
 div.logo span {
