@@ -15,7 +15,7 @@ body {
 .navbar {
   display: flex;
   justify-content: center;
-  background-color: #e6b80a;
+  background-color: #eac743;
   padding: 10px 0;
 }
 
@@ -53,7 +53,7 @@ body {
 .first-paragraph::first-letter {
   font-size: 200%; 
   font-weight: bold;
-  color: #e6b80a;
+  color: #eac743;
 }
 
 .logo span {
