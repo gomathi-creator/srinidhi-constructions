@@ -1,5 +1,5 @@
 body {
-  font-family: "Century Gothic", sans-serif;
+  font-family: "Century Gothic";
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -9,7 +9,7 @@ body {
 .container {
   text-align: center;
   padding: 20px;
-  font-family: "Century Gothic", sans-serif;
+  font-family: "Century Gothic";
 }
 
 .navbar {
