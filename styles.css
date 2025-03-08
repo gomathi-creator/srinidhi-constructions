@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-  color: #253a55;
+  color: #1b4166;
 }
 
 .container {
@@ -15,12 +15,12 @@ body {
 .navbar {
   display: flex;
   justify-content: center;
-  background-color: #eac743;
+  background-color: #ffdf04;
   padding: 10px 0;
 }
 
 .navbar a {
-  color: #253a55;
+  color: #1b4166;
   text-decoration: none;
   padding: 10px 20px;
   font-size: 18px;
@@ -37,7 +37,7 @@ body {
 }
 
 .cta-button {
-  background-color: #253a55;
+  background-color: #1b4166;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -53,13 +53,13 @@ body {
 .first-paragraph::first-letter {
   font-size: 200%; 
   font-weight: bold;
-  color: #eac743;
+  color: #ffdf04;
 }
 
 .logo span {
     text-transform: uppercase !important;
     font-weight: bold !important;
-    color: #253a55;
+    color: #1b4166;
 }
 
 #location {
