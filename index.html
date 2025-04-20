@@ -306,15 +306,15 @@
   </div>
 </section>
 
-  <div class="logo-carousel">
-  <div class="logo-track">
-    <img src="/images/logo1.png" alt="Brand 1" />
-    <img src="/images/logo2.png" alt="Brand 2" />
-    <img src="/images/logo3.png" alt="Brand 3" />
-    <img src="/images/logo1.png" alt="Brand 1" />
-    <img src="/images/logo2.png" alt="Brand 2" />
-    <img src="/images/logo3.png" alt="Brand 3" />
+  <div class="carousel-wrapper">
+  <div class="carousel" id="logo-carousel">
+    <img src="images/tata-steel.png" alt="Tata Steel">
+    <img src="images/ultratech.png" alt="Ultratech">
+    <img src="images/asian-paints.png" alt="Asian Paints">
+    <!-- Add more logos here -->
   </div>
+  <button onclick="prevLogo()">❮</button>
+  <button onclick="nextLogo()">❯</button>
 </div>
 
 
@@ -344,17 +344,61 @@
 
 
   <!-- PROJECTS SECTION -->
-  <section class="projects" id="projects">
-    <h2>Our Projects</h2>
-    <p>Explore a selection of our recent work:</p>
-    <div class="projects-gallery">
-      <!-- Replace with actual project images -->
-      <img src="https://via.placeholder.com/400x300?text=Project+1" alt="Project 1">
-      <img src="https://via.placeholder.com/400x300?text=Project+2" alt="Project 2">
-      <img src="https://via.placeholder.com/400x300?text=Project+3" alt="Project 3">
-      <img src="https://via.placeholder.com/400x300?text=Project+4" alt="Project 4">
-    </div>
-  </section>
+  <section class="our-projects">
+  <h2>Our Projects</h2>
+  <p>Explore a selection of our recent work:</p>
+
+  <div class="project-folders">
+    <!-- Construction Projects -->
+    <details>
+      <summary>🏗️ Construction Projects</summary>
+      <div class="project-list">
+        <p>Project 1</p>
+        <p>Project 2</p>
+        <p>Project 3</p>
+        <p>Project 4</p>
+        <p>Project 5</p>
+      </div>
+    </details>
+
+    <!-- Interior Projects -->
+    <details>
+      <summary>🏠 Interior Projects</summary>
+      <div class="project-list">
+        <p>Project 1</p>
+        <p>Project 2</p>
+        <p>Project 3</p>
+        <p>Project 4</p>
+        <p>Project 5</p>
+      </div>
+    </details>
+
+    <!-- Commercial Projects -->
+    <details>
+      <summary>🏢 Commercial Projects</summary>
+      <div class="project-list">
+        <p>Project 1</p>
+        <p>Project 2</p>
+        <p>Project 3</p>
+        <p>Project 4</p>
+        <p>Project 5</p>
+      </div>
+    </details>
+
+    <!-- Design to Execution -->
+    <details>
+      <summary>📐 Design to Execution</summary>
+      <div class="project-list">
+        <p>Project 1</p>
+        <p>Project 2</p>
+        <p>Project 3</p>
+        <p>Project 4</p>
+        <p>Project 5</p>
+      </div>
+    </details>
+  </div>
+</section>
+
 
   <!-- LOCATION SECTION -->
  <section id="location">
