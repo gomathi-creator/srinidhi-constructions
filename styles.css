@@ -128,3 +128,44 @@ div.logo span {
   flex: 0 1 calc(50% - 30px); /* Two columns with gap considered */
   box-sizing: border-box;
 }
+
+.why-us-section {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.why-us-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.why-us-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.why-box {
+  flex: 0 1 calc(50% - 30px);
+  background-color: #e5e7eb; /* light grey */
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.why-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.why-box p {
+  color: #4b5563;
+  line-height: 1.5;
+}
+
