@@ -115,21 +115,27 @@ div.logo span {
     font-size: 14px;
  }
 
+.client-logos {
+  padding: 40px 0;
+  background-color: #f8f9fa; /* or any light background */
+  text-align: center;
+}
+
 .logo-carousel {
   overflow: hidden;
-  background: #fff; /* Adjust background as needed */
-  padding: 20px 0;
-  width: 100%; /* Ensure the carousel takes up the full width */
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .logo-track {
   display: flex;
-  width: 100%;
+  width: max-content;
   animation: scroll 30s linear infinite;
 }
 
 .logo-track img {
-  height: 60px; /* Adjust logo size */
+  height: 60px;
   margin: 0 30px;
   flex-shrink: 0;
 }
@@ -139,6 +145,7 @@ div.logo span {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); /* This makes the track move by half its width */
+    transform: translateX(-50%);
   }
 }
+
