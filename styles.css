@@ -1,20 +1,11 @@
-:root {
-  --font-family: "Century Gothic", sans-serif;
-  --body-bg: #f4f4f4;
-  --dark-text: #1b4166;
-}
 
 body {
-  font-family: var(--font-family);
-  background-color: var(--body-bg);
-  color: var(--dark-text);
-  line-height: 1.6;
+  font-family: "Century Gothic";
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #1b4166;
 }
-
-h1, h2, h3, h4, h5, h6, p, span, a, li {
-  color: var(--dark-text);
-}
-
 
 .container {
   text-align: center;
