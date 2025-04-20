@@ -115,7 +115,7 @@ div.logo span {
     font-size: 14px;
  }
 
-.services-row {
+.services-section .services-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -124,7 +124,8 @@ div.logo span {
   margin: 0 auto;
 }
 
-.service-card {
-  flex: 0 1 calc(50% - 30px); /* Two columns with gap considered */
+.services-section .service-card {
+  flex: 0 1 calc(50% - 30px);
   box-sizing: border-box;
 }
+
