@@ -130,7 +130,7 @@ div.logo span {
 }
 
 .why-us-section {
-  padding: 60px 20px;
+  padding: 30px 20px;
   background-color: #f4f4f4;
   text-align: center;
 }
@@ -152,7 +152,7 @@ div.logo span {
 .why-box {
   flex: 0 1 calc(50% - 30px);
   background-color: #e5e7eb; /* light grey */
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   text-align: left;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
