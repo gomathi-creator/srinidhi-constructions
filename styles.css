@@ -116,18 +116,18 @@ div.logo span {
   
 .logo-carousel {
   overflow: hidden;
-  background: #fff; /* Adjust background as needed */
+  background: #fff;
   padding: 20px 0;
 }
 
 .logo-track {
   display: flex;
-  width: calc(200%); /* Adjust based on the number of logos */
+  width: 100%;
   animation: scroll 30s linear infinite;
 }
 
 .logo-track img {
-  height: 60px; /* Adjust logo size */
+  height: 60px;
   margin: 0 30px;
   flex-shrink: 0;
 }
@@ -137,6 +137,7 @@ div.logo span {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%); /* Scroll one full set of logos */
   }
 }
+
