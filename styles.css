@@ -115,41 +115,16 @@ div.logo span {
     font-size: 14px;
  }
 
-.services-section {
-  padding: 60px 20px;
-  background-color: #f4f4f4;
-  text-align: center;
-}
-
-.services-section h2 {
-  font-size: 2rem;
-  margin-bottom: 40px;
-}
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.services-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-.service-box {
-  background-color: #ffffff;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-  text-align: left;
+.service-card {
+  flex: 0 1 calc(50% - 30px); /* Two columns with gap considered */
+  box-sizing: border-box;
 }
-
-.service-box h3 {
-  margin-bottom: 10px;
-  font-size: 1.2rem;
-  color: #222;
-}
-
-.service-box p {
-  color: #555;
-  line-height: 1.5;
-}
-
