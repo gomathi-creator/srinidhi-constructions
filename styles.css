@@ -113,11 +113,13 @@ div.logo span {
 
 .about-us-text {
     font-size: 14px;
-  
+ }
+
 .logo-carousel {
   overflow: hidden;
-  background: #fff;
+  background: #fff; /* Adjust background as needed */
   padding: 20px 0;
+  width: 100%; /* Ensure the carousel takes up the full width */
 }
 
 .logo-track {
@@ -127,7 +129,7 @@ div.logo span {
 }
 
 .logo-track img {
-  height: 60px;
+  height: 60px; /* Adjust logo size */
   margin: 0 30px;
   flex-shrink: 0;
 }
@@ -137,7 +139,6 @@ div.logo span {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%); /* Scroll one full set of logos */
+    transform: translateX(-50%); /* This makes the track move by half its width */
   }
 }
-
