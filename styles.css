@@ -113,28 +113,23 @@ div.logo span {
 
 .about-us-text {
     font-size: 14px;
-}.logo-carousel {
+  
+.logo-carousel {
   overflow: hidden;
-  background-color: #ffffff;
+  background: #fff; /* Adjust background as needed */
   padding: 20px 0;
 }
 
 .logo-track {
   display: flex;
-  gap: 50px;
-  animation: scroll 20s linear infinite;
+  width: calc(200%); /* Adjust based on the number of logos */
+  animation: scroll 30s linear infinite;
 }
 
 .logo-track img {
-  height: 50px;
-  width: auto;
-  object-fit: contain;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
-}
-
-.logo-track img:hover {
-  filter: grayscale(0%);
+  height: 60px; /* Adjust logo size */
+  margin: 0 30px;
+  flex-shrink: 0;
 }
 
 @keyframes scroll {
