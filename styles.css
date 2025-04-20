@@ -114,38 +114,3 @@ div.logo span {
 .about-us-text {
     font-size: 14px;
  }
-
-.client-logos {
-  padding: 40px 0;
-  background-color: #f8f9fa; /* or any light background */
-  text-align: center;
-}
-
-.logo-carousel {
-  overflow: hidden;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.logo-track {
-  display: flex;
-  width: max-content;
-  animation: scroll 30s linear infinite;
-}
-
-.logo-track img {
-  height: 60px;
-  margin: 0 30px;
-  flex-shrink: 0;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
