@@ -135,6 +135,11 @@ div.logo span {
   box-sizing: border-box;
 }
 
+.services h2 {
+  color: var(--dark-blue);
+}
+
+
 /* Services card titles and descriptions */
 .service-card h3 {
   color: var(--yellow);
