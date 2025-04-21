@@ -205,15 +205,15 @@ div.logo span {
 }
 
 .logo-carousel img {
-  height: 180px; /* You can increase/decrease if needed */
-  width: auto;
+  height: 220px;
+  max-width: 300px;
   object-fit: contain;
-  margin: 0 20px; /* space between logos */
-  transition: transform 0.3s ease;
+  padding: 0 30px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .logo-carousel img:hover {
-  transform: scale(1.05); /* Optional: adds a slight hover zoom effect */
+  transform: scale(1.08);
 }
 
 
@@ -245,13 +245,6 @@ div.logo span {
   height: 60px;
   margin: 0 30px;
   flex-shrink: 0;
-}
-
-.logo-carousel img {
-  height: 60px;
-  max-width: 160px;
-  object-fit: contain;
-  margin: 0 20px;
 }
 
 /* Keyframes to move the logos */
