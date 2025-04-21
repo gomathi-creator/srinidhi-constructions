@@ -197,6 +197,25 @@ div.logo span {
   }
 }
 
+@media (max-width: 768px) {
+  .logo-carousel-track {
+    animation: scroll-logos 30s linear infinite;
+    display: flex;
+    width: max-content;
+  }
+
+  .logo-carousel img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .logo-carousel-container {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
 .our-projects {
   text-align: center;
   padding: 3rem 2rem;
