@@ -245,6 +245,13 @@ div.logo span {
   flex-shrink: 0;
 }
 
+.logo-carousel img {
+  height: 60px;
+  max-width: 160px;
+  object-fit: contain;
+  margin: 0 20px;
+}
+
 /* Keyframes to move the logos */
 @keyframes scroll {
   0% {
