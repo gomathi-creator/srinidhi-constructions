@@ -1,6 +1,6 @@
 :root {
   --yellow: #FFD700;
-  --dark-blue: #143354;
+  --dark-blue: #000000;
   --transition-speed: 0.3s;
 }
 
@@ -136,18 +136,18 @@ div.logo span {
 }
 
 .services h2 {
-  color: var(--dark-blue);
+  color: var(--yellow);
 }
 
 
 /* Services card titles and descriptions */
 .service-card h3 {
-  color: var(--dark-blue);
+  color: var(--black);
   font-weight: bold;
 }
 
 .service-card p {
-  color: var(--yellow);
+  color: var(--black);
 }
 
 .why-us-section h2 {
