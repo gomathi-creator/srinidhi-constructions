@@ -253,6 +253,9 @@ div.logo span {
   transform: translate3d(0, 0, 0); /* Forces GPU rendering */
 }
 
+.logo-track {
+  animation-delay: 0s;
+}
 
 /* Keyframes to move the logos */
 @keyframes scroll {
