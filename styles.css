@@ -158,33 +158,38 @@ div.logo span {
 .logo-carousel {
   overflow: hidden;
   width: 100%;
-  background-color: #ffffff;
-  padding: 20px 0;
+  background-color: #fff;
+  padding: 30px 0;
   display: flex;
   justify-content: center;
 }
 
 .carousel-track {
   display: flex;
-  width: max-content;
-  animation: scrollLogos 30s linear infinite;
+  gap: 40px;
+  animation: scroll-left 40s linear infinite;
   align-items: center;
 }
 
 .carousel-track img {
   height: 60px;
-  margin: 0 30px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
-@keyframes scrollLogos {
+.carousel-track img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scroll-left {
   0% {
-    transform: translateX(0);
+    transform: translateX(100%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
-
 
 .our-projects {
   text-align: center;
