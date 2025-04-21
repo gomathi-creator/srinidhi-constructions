@@ -197,13 +197,6 @@ div.logo span {
   justify-content: center;
 }
 
-.carousel-track {
-  display: flex;
-  gap: 40px;
-  animation: scroll-left 40s linear infinite;
-  align-items: center;
-}
-
 .logo-carousel img {
   height: 160px;
   max-width: 300px;
@@ -216,15 +209,6 @@ div.logo span {
   transform: scale(1.08);
 }
 
-
-@keyframes scroll-left {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
 
 /* Logo Carousel Container */
 .logo-carousel {
@@ -246,6 +230,14 @@ div.logo span {
   margin: 0 30px;
   flex-shrink: 0;
 }
+
+.logo-track {
+  display: flex;
+  animation: scroll 30s linear infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0); /* Forces GPU rendering */
+}
+
 
 /* Keyframes to move the logos */
 @keyframes scroll {
