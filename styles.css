@@ -163,22 +163,22 @@ div.logo span {
 
 .logo-carousel {
   overflow: hidden;
-  position: relative;
   width: 100%;
-  background: white;
+  background-color: #fff;
+  padding: 20px 0;
 }
 
 .logo-track {
   display: flex;
+  width: calc(250px * 30); /* 15 images × 2 for looping effect */
   animation: scroll 40s linear infinite;
-  width: max-content;
 }
 
 .logo-track img {
   height: 60px;
-  margin: 0 20px;
+  width: auto;
+  margin: 0 25px;
   object-fit: contain;
-  max-width: none;
   flex-shrink: 0;
 }
 
@@ -190,6 +190,15 @@ div.logo span {
     transform: translateX(-50%);
   }
 }
+
+/* Make it responsive */
+@media (max-width: 768px) {
+  .logo-track img {
+    height: 40px;
+    margin: 0 15px;
+  }
+}
+
 
 /* Responsive adjustments for mobile */
 @media screen and (max-width: 768px) {
