@@ -205,7 +205,7 @@ div.logo span {
 }
 
 .logo-carousel img {
-  height: 90px; /* You can increase/decrease if needed */
+  height: 180px; /* You can increase/decrease if needed */
   width: auto;
   object-fit: contain;
   margin: 0 20px; /* space between logos */
