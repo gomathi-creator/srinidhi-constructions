@@ -205,11 +205,11 @@ div.logo span {
 }
 
 .logo-carousel img {
-  height: 100px;
+  height: 160px;
   max-width: 300px;
   object-fit: contain;
-  padding: 0 30px;
-  transition: transform 0.3s ease-in-out;
+  padding: 0 20px;
+  transition: transform 0.4s ease-in-out;
 }
 
 .logo-carousel img:hover {
