@@ -163,39 +163,42 @@ div.logo span {
 
 .logo-carousel {
   overflow: hidden;
+  position: relative;
   width: 100%;
-  background-color: #fff;
-  padding: 30px 0;
-  display: flex;
-  justify-content: center;
+  background: white;
 }
 
-.carousel-track {
+.logo-track {
   display: flex;
-  gap: 40px;
-  animation: scroll-left 40s linear infinite;
-  align-items: center;
+  animation: scroll 40s linear infinite;
+  width: max-content;
 }
 
-.carousel-track img {
+.logo-track img {
   height: 60px;
+  margin: 0 20px;
   object-fit: contain;
-  transition: transform 0.3s ease;
-  cursor: pointer;
+  max-width: none;
+  flex-shrink: 0;
 }
 
-.carousel-track img:hover {
-  transform: scale(1.1);
-}
-
-@keyframes scroll-left {
+@keyframes scroll {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
+
+/* Responsive adjustments for mobile */
+@media screen and (max-width: 768px) {
+  .logo-track img {
+    height: 40px;
+    margin: 0 10px;
+  }
+}
+
 
 .our-projects {
   text-align: center;
