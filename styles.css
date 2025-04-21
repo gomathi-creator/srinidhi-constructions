@@ -205,7 +205,7 @@ div.logo span {
 }
 
 .logo-carousel img {
-  height: 220px;
+  height: 100px;
   max-width: 300px;
   object-fit: contain;
   padding: 0 30px;
