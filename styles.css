@@ -197,24 +197,44 @@ div.logo span {
   }
 }
 
-@media (max-width: 768px) {
-  .logo-carousel-track {
-    animation: scroll-logos 30s linear infinite;
-    display: flex;
-    width: max-content;
-  }
+/* Logo Carousel Container */
+.logo-carousel {
+  overflow: hidden;
+  background: #fff;
+  padding: 20px 0;
+  position: relative;
+}
 
-  .logo-carousel img {
-    width: 100px;
-    height: auto;
-    margin-right: 20px;
-  }
+/* This will make the track wide enough to hold the duplicate logos for seamless looping */
+.logo-track {
+  display: flex;
+  animation: scroll 30s linear infinite;
+}
 
-  .logo-carousel-container {
-    overflow: hidden;
-    white-space: nowrap;
+/* Each logo will stay in place and not shrink */
+.logo-track img {
+  height: 60px;
+  margin: 0 30px;
+  flex-shrink: 0;
+}
+
+/* Keyframes to move the logos */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Move to the middle of the track */
   }
 }
+
+/* Responsive Fix for Mobile */
+@media (max-width: 768px) {
+  .logo-track {
+    width: calc(200%); /* Ensure track is twice as wide for smooth looping */
+  }
+}
+
 
 .our-projects {
   text-align: center;
