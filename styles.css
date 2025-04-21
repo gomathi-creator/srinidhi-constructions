@@ -204,16 +204,18 @@ div.logo span {
   align-items: center;
 }
 
-.carousel-track img {
-  height: 60px;
+.logo-carousel img {
+  height: 90px; /* You can increase/decrease if needed */
+  width: auto;
   object-fit: contain;
+  margin: 0 20px; /* space between logos */
   transition: transform 0.3s ease;
-  cursor: pointer;
 }
 
-.carousel-track img:hover {
-  transform: scale(1.1);
+.logo-carousel img:hover {
+  transform: scale(1.05); /* Optional: adds a slight hover zoom effect */
 }
+
 
 @keyframes scroll-left {
   0% {
