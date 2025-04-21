@@ -1,3 +1,8 @@
+:root {
+  --yellow: #FFD700;
+  --dark-blue: #1b4166;
+  --transition-speed: 0.3s;
+}
 
 body {
   font-family: "Century Gothic";
@@ -128,6 +133,16 @@ div.logo span {
 .service-card {
   flex: 0 1 calc(50% - 30px); /* Two columns with gap considered */
   box-sizing: border-box;
+}
+
+/* Services card titles and descriptions */
+.service-card h3 {
+  color: var(--yellow);
+  font-weight: bold;
+}
+
+.service-card p {
+  color: var(--dark-blue);
 }
 
 .why-us-section h2 {
