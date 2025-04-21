@@ -142,12 +142,12 @@ div.logo span {
 
 /* Services card titles and descriptions */
 .service-card h3 {
-  color: var(--black);
+  color: #000000;
   font-weight: bold;
 }
 
 .service-card p {
-  color: var(--black);
+  color: #000000;
 }
 
 .why-us-section h2 {
