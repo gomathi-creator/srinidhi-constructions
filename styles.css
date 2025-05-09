@@ -18,6 +18,11 @@ body {
   font-family: "Century Gothic";
 }
 
+.logo img {
+  height: 80px;  /* or adjust to fit your header */
+  width: auto;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
