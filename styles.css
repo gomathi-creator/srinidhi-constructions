@@ -18,9 +18,16 @@ body {
   font-family: "Century Gothic";
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .logo img {
-  height: 80px;  /* or adjust to fit your header */
+  height: 90px; /* adjust as needed */
   width: auto;
+  display: block;
 }
 
 .navbar {
