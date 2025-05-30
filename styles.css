@@ -25,9 +25,11 @@ body {
 }
 
 .logo img {
-  height: 78px; /* adjust as needed */
+  max-height: 78px;
   width: auto;
+  height: auto;
   display: block;
+  object-fit: contain;
 }
 
 .navbar {
