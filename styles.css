@@ -76,6 +76,13 @@ body {
   color: #ffdf04;
 }
 
+.about {
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url('backdrop.png') no-repeat center center / cover;
+  padding: 4rem 2rem;
+}
+
 .about p {
   color: var(--dark-blue);
 }
