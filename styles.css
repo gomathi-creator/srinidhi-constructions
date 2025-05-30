@@ -207,25 +207,22 @@ div.logo span {
   width: 100%;
   background-color: #fff;
   padding: 30px 0;
-  display: flex;
-  justify-content: center;
   position: relative;
 }
 
 .logo-track {
   display: flex;
+  align-items: center;
   gap: 40px;
   animation: scroll 30s linear infinite;
-  align-items: center;
   will-change: transform;
-  transform: translate3d(0, 0, 0);
 }
 
 .logo-track img {
   height: 60px;
-  margin: 0 30px;
   flex-shrink: 0;
   object-fit: contain;
+  padding: 0 20px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -244,7 +241,7 @@ div.logo span {
 
 @media (max-width: 768px) {
   .logo-track {
-    width: 200%; /* Ensure smooth loop on smaller screens */
+    width: 200%; /* Ensures smooth loop on mobile */
   }
 }
 
