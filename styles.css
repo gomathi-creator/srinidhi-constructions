@@ -209,82 +209,42 @@ div.logo span {
   padding: 30px 0;
   display: flex;
   justify-content: center;
-}
-
-.logo-carousel img {
-  height: 160px;
-  max-width: 300px;
-  object-fit: contain;
-  padding: 0 20px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.logo-carousel img:hover {
-  transform: scale(1.05);
-}
-
-
-/* Logo Carousel Container */
-.logo-carousel {
-  overflow: hidden;
-  background: #fff;
-  padding: 20px 0;
   position: relative;
 }
 
-.carousel-track {
-  display: flex;
-  gap: 40px;
-  animation: scroll-left 40s linear infinite;
-  align-items: center;
-}
-@keyframes scroll-left {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-/* This will make the track wide enough to hold the duplicate logos for seamless looping */
 .logo-track {
   display: flex;
-  animation: scroll 20s linear infinite;
+  gap: 40px;
+  animation: scroll 30s linear infinite;
+  align-items: center;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
 }
 
-/* Each logo will stay in place and not shrink */
 .logo-track img {
   height: 60px;
   margin: 0 30px;
   flex-shrink: 0;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
 }
 
-.logo-track {
-  display: flex;
-  animation: scroll 30s linear infinite;
-  will-change: transform;
-  transform: translate3d(0, 0, 0); /* Forces GPU rendering */
+.logo-track img:hover {
+  transform: scale(1.05);
 }
 
-.logo-track {
-  animation-delay: 0s !important;
-}
-
-/* Keyframes to move the logos */
 @keyframes scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); /* Move to the middle of the track */
+    transform: translateX(-50%);
   }
 }
 
-/* Responsive Fix for Mobile */
 @media (max-width: 768px) {
   .logo-track {
-    width: calc(200%); /* Ensure track is twice as wide for smooth looping */
+    width: 200%; /* Ensure smooth loop on smaller screens */
   }
 }
 
