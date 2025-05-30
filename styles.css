@@ -211,7 +211,7 @@ div.logo span {
 }
 
 .logo-track {
-  display: flex;
+  display: flex;              /* ✅ This makes logos appear in a row */
   align-items: center;
   gap: 40px;
   animation: scroll 30s linear infinite;
@@ -222,7 +222,6 @@ div.logo span {
   height: 60px;
   flex-shrink: 0;
   object-fit: contain;
-  padding: 0 20px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -239,12 +238,12 @@ div.logo span {
   }
 }
 
+/* Mobile adjustment */
 @media (max-width: 768px) {
   .logo-track {
-    width: 200%; /* Ensures smooth loop on mobile */
+    width: 200%;
   }
 }
-
 
 .our-projects {
   text-align: center;
