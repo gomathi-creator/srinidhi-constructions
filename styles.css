@@ -289,7 +289,7 @@ summary {
 .hero {
   position: relative;
   padding: 40px 20px;
-  background: url('hero-bg.jpg') no-repeat center center / cover;
+  background: url('backdrop.png') no-repeat center center / cover;
   color: white;
   text-align: center;
   overflow: hidden;
