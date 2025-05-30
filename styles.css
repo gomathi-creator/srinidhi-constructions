@@ -211,27 +211,27 @@ div.logo span {
 }
 
 .logo-track {
-  display: flex;              /* ✅ This makes logos appear in a row */
+  display: flex;
   align-items: center;
-  gap: 40px;
-  animation: scroll 30s linear infinite;
+  animation: scroll 25s linear infinite;
   will-change: transform;
 }
 
 .logo-track img {
   height: 60px;
   flex-shrink: 0;
+  margin: 0 20px;
   object-fit: contain;
   transition: transform 0.3s ease-in-out;
 }
 
 .logo-track img:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 @keyframes scroll {
   0% {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
   100% {
     transform: translateX(-50%);
