@@ -26,9 +26,10 @@ body {
 
 .logo img {
   width: auto;
-   height: 1.8em;
+  height: 2.4em;
   display: block;
   object-fit: contain;
+  vertical-align: middle;
 }
 
 .navbar {
