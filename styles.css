@@ -168,12 +168,6 @@ div.logo span {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.service-card:hover {
-  box-shadow: 0 0 20px 4px rgba(255, 193, 7, 0.6); /* vivid warm yellow glow */
-  transform: scale(1.02);
-}
-
-
 .services h2 {
   color: #000000;
 }
@@ -186,6 +180,12 @@ div.logo span {
 .service-card p {
   color: #000000;
 }
+
+.service-card:hover {
+  box-shadow: 0 0 20px 4px rgba(255, 193, 7, 0.6); /* vivid warm yellow glow */
+  transform: scale(1.02);
+}
+
 
 
 .why-box h3 {
