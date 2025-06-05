@@ -360,17 +360,14 @@ summary {
   z-index: 2;
 }
 
-.hero-content {
-  background-color: rgba(255, 255, 255, 0.1); /* optional subtle background */
-  padding: 30px;
-  border-radius: 10px;
-  backdrop-filter: blur(5px); /* if you want a frosted look */
+.hero {
+  position: relative;
   transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
 
-.hero-content:hover {
-  box-shadow: 0 0 25px rgba(255, 215, 0, 0.6);
-  transform: scale(1.02);
+.hero:hover {
+  box-shadow: 0 0 40px rgba(255, 215, 0, 0.5); /* yellow glow */
+  transform: scale(1.01); /* subtle zoom effect */
 }
 
 
