@@ -145,9 +145,9 @@ div.logo span {
   padding: 10px 20px;
   border-radius: 12px;
   font-weight: bold;
-  margin: 20px auto;
+  margin: 10px auto;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .services-row {
@@ -166,7 +166,7 @@ div.logo span {
   overflow: hidden;    /* 🟡 NEW: Prevent background overflow */
   border-radius: 8px;
   background-color: #f9f9f9;
-  padding: 20px;
+  padding: 10px;
   transition: box-shadow var(--transition-speed);
 }
 
@@ -218,7 +218,7 @@ div.logo span {
 }
 
 .why-us-section h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 40px;
 }
 
