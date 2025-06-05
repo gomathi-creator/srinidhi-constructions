@@ -135,19 +135,24 @@ div.logo span {
     font-size: 24px;
 }
 
-#about {
-  margin-top: 20px;  /* reduce spacing above */
-  margin-bottom: 20px; /* reduce spacing below */
+/* Reduce the white space between those sections */
+.about-us-text,
+.service-locations,
+.excel-section h2 {
+  margin-bottom: 8px;  /* reduces bottom spacing */
 }
 
-#about h2 {
-  margin-bottom: 10px; /* reduce space between heading and text */
+.service-locations,
+.excel-section {
+  margin-top: 8px;     /* reduces top spacing */
 }
 
-.about-us-text {
-  font-size: 14px;
-  margin: 0;  /* remove unnecessary paragraph margin */
+/* Optional: make things a bit tighter throughout */
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 
 .about-us-text {
     font-size: 14px;
