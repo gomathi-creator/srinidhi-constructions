@@ -169,7 +169,7 @@ div.logo span {
 }
 
 .service-card:hover {
-  box-shadow: 0 0 20px 8px rgba(255, 204, 0, 0.4); /* subtle but visible warm yellow glow */
+  box-shadow: 0 0 20px 4px rgba(255, 193, 7, 0.6); /* vivid warm yellow glow */
   transform: scale(1.02);
 }
 
