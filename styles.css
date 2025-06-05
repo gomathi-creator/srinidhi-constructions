@@ -162,6 +162,28 @@ div.logo span {
 .service-card {
   flex: 0 1 calc(50% - 30px); /* Two columns with gap considered */
   box-sizing: border-box;
+  position: relative; /* 🟡 NEW: Required for background layering */
+  overflow: hidden;    /* 🟡 NEW: Prevent background overflow */
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  transition: box-shadow var(--transition-speed);
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.45;
+  z-index: 0; /* behind content */
+}
+
+/* Ensure text appears above the background image */
+.service-card * {
+  position: relative;
+  z-index: 1;
 }
 
 .services h2 {
@@ -177,6 +199,22 @@ div.logo span {
 
 .service-card p {
   color: #000000;
+}
+
+.residential::before {
+  background-image: url('images/residential.jpg');
+}
+
+.interior::before {
+  background-image: url('images/interior.jpg');
+}
+
+.commercial::before {
+  background-image: url('images/commercial.jpg');
+}
+
+.execution::before {
+  background-image: url('images/execution.jpg');
 }
 
 .why-us-section h2 {
