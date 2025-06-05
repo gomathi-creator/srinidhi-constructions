@@ -170,16 +170,6 @@ div.logo span {
   transition: box-shadow var(--transition-speed);
 }
 
-.service-card::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.45;
-  z-index: 0; /* behind content */
-}
-
 /* Ensure text appears above the background image */
 .service-card * {
   position: relative;
@@ -201,25 +191,16 @@ div.logo span {
   color: #000000;
 }
 
-.residential::before {
-  background-image: url('images/residential.jpg');
+.service-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.interior::before {
-  background-image: url('images/interior.jpg');
-}
-
-.commercial::before {
-  background-image: url('images/commercial.jpg');
-}
-
-.execution::before {
-  background-image: url('images/execution.jpg');
-}
-
-.why-us-section h2 {
-  font-size: 1.5rem;
-  margin-bottom: 40px;
+.service-card:hover {
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.6); /* soft yellow glow */
+  transform: scale(1.02); /* slight zoom effect */
 }
 
 
@@ -360,14 +341,5 @@ summary {
   z-index: 2;
 }
 
-.hero {
-  position: relative;
-  transition: box-shadow 0.4s ease, transform 0.4s ease;
-}
-
-.hero:hover {
-  box-shadow: 0 0 40px rgba(255, 215, 0, 0.5); /* yellow glow */
-  transform: scale(1.01); /* subtle zoom effect */
-}
 
 
