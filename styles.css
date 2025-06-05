@@ -205,9 +205,13 @@ section {
 }
 
 .service-card:hover {
-  box-shadow: 0 0 18px 6px rgba(255, 193, 7, 0.4); /* Warm yellow outer glow */
-  transform: scale(1.02);
-  border-color: rgba(255, 193, 7, 0.6); /* Slightly stronger border on hover */
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.6); /* soft yellow glow */
+  transform: scale(1.02); /* slight zoom effect */
+}
+
+/* Optional: if you want a glowing border too */
+.service-card:hover {
+  border: 1px solid #ffcc00;
 }
 
 .why-box h3 {
