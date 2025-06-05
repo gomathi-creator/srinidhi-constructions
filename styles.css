@@ -162,26 +162,26 @@ div.logo span {
 .service-card {
   flex: 0 1 calc(50% - 30px); /* Two columns with gap considered */
   box-sizing: border-box;
-  position: relative; /* 🟡 NEW: Required for background layering */
-  overflow: hidden;    /* 🟡 NEW: Prevent background overflow */
   border-radius: 8px;
   background-color: #f9f9f9;
-  padding: 10px;
-  transition: box-shadow var(--transition-speed);
+  padding: 20px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-/* Ensure text appears above the background image */
-.service-card * {
-  position: relative;
-  z-index: 1;
+.service-card:hover {
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.6); /* soft yellow glow */
+  transform: scale(1.02); /* slight zoom effect */
+}
+
+/* Optional: if you want a glowing border too */
+.service-card:hover {
+  border: 1px solid #ffcc00;
 }
 
 .services h2 {
   color: #000000;
 }
 
-
-/* Services card titles and descriptions */
 .service-card h3 {
   color: var(--yellow);
   font-weight: bold;
@@ -189,18 +189,6 @@ div.logo span {
 
 .service-card p {
   color: #000000;
-}
-
-.service-card {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.service-card:hover {
-  box-shadow: 0 0 20px rgba(255, 204, 0, 0.6); /* soft yellow glow */
-  transform: scale(1.02); /* slight zoom effect */
 }
 
 
