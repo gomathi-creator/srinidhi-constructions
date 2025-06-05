@@ -163,9 +163,10 @@ div.logo span {
   flex: 0 1 calc(50% - 30px);
   box-sizing: border-box;
   border-radius: 8px;
-  background-color: #ffffff; /* Keep background clean */
+  background-color: #ffffff;
   padding: 20px;
-  transition: box-shadow 0.4s ease, transform 0.3s ease;
+  border: 1px solid rgba(255, 193, 7, 0.3); /* ✨ Subtle yellow border */
+  transition: box-shadow 0.4s ease, transform 0.3s ease, border 0.3s ease;
 }
 
 .services h2 {
@@ -182,8 +183,9 @@ div.logo span {
 }
 
 .service-card:hover {
-  box-shadow: 0 0 30px rgba(255, 193, 7, 0.5); /* soft yellow outer glow */
+  box-shadow: 0 0 20px 6px rgba(255, 193, 7, 0.4); /* ☀️ Soft yellow glow */
   transform: scale(1.02);
+  border: 1px solid rgba(255, 193, 7, 0.5); /* Slightly more visible on hover */
 }
 
 .why-box h3 {
