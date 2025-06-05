@@ -173,10 +173,6 @@ div.logo span {
   transform: scale(1.02);
 }
 
-/* Optional: if you want a glowing border too */
-.service-card:hover {
-  border: 1px solid #ffcc00;
-}
 
 .services h2 {
   color: #000000;
