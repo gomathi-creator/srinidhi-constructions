@@ -139,18 +139,18 @@ div.logo span {
 .about-us-text,
 .service-locations,
 .excel-section h2 {
-  margin-bottom: 8px;  /* reduces bottom spacing */
+  margin-bottom: 4px;  /* reduces bottom spacing */
 }
 
 .service-locations,
 .excel-section {
-  margin-top: 8px;     /* reduces top spacing */
+  margin-top: 4px;     /* reduces top spacing */
 }
 
 /* Optional: make things a bit tighter throughout */
 section {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
