@@ -187,21 +187,21 @@ section {
 }
 
 .services-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* two cards per row */
   gap: 30px;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .service-card {
-  width: 300px;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   box-shadow: 0 0 0 rgba(255, 223, 4, 0);
-  border: 1px solid #eee;
-  text-align: center; /* center inside text */
+  text-align: center;
 }
 
 .service-card h3 {
