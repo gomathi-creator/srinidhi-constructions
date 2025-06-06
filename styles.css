@@ -183,22 +183,28 @@ section {
   margin: 0 auto;
 }
 
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  margin-top: 40px;
-  justify-items: center;
-}
-
 .service-card {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  transition: box-shadow 0.3s ease;
-  position: relative;
-  z-index: 1;
+  margin: 15px;
+  width: calc(50% - 30px); /* two cards per row with spacing */
+  box-sizing: border-box;
+  float: left;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0 0 rgba(255, 223, 4, 0); /* No glow by default */
+}
+
+.service-card:hover {
+  box-shadow: 0 0 25px 10px rgba(255, 223, 4, 0.6); /* Yellow glow */
+  transform: translateY(-4px);
+}
+
+/* Clear floats after the service cards */
+.services::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .service-card:hover {
