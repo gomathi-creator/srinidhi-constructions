@@ -202,9 +202,11 @@ section {
 .services h2 {
   width: 100%;
   text-align: center;
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto; /* centers it with auto margins */
   color: #000;
+  display: block; /* just to be safe */
 }
+
 
 .service-card h3 {
   color: var(--yellow);
