@@ -202,10 +202,16 @@ section {
 .services h2 {
   width: 100%;
   text-align: center;
-  margin: 0 auto 30px auto; /* centers it with auto margins */
+  margin-bottom: 30px;
   color: #000;
-  display: block; /* just to be safe */
+  padding: 0 16px; /* Optional: helps center inside narrower screens */
 }
+
+.services-heading {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 .service-card h3 {
