@@ -187,19 +187,21 @@ section {
 }
 
 .services-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Exactly two columns */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
 
 .service-card {
+  width: 300px;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   box-shadow: 0 0 0 rgba(255, 223, 4, 0);
   border: 1px solid #eee;
-  text-align: left;
+  text-align: center; /* center inside text */
 }
 
 .service-card h3 {
@@ -216,8 +218,6 @@ section {
   box-shadow: 0 0 20px 6px rgba(255, 223, 4, 0.7);
   transform: translateY(-4px);
 }
-
-
 
 .why-box h3 {
   font-size: 1.2rem;
