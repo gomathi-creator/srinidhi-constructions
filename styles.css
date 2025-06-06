@@ -174,7 +174,7 @@ section {
   font-size: 1.2rem;
 }
 
-..services {
+.services {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
