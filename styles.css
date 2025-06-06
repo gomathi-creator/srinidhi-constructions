@@ -178,18 +178,19 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   max-width: 1000px;
   margin: 40px auto;
-  padding: 0 20px;
+  padding: 0 10px;
   box-sizing: border-box;
 }
 
 .service-card {
   background-color: #fff;
-  flex: 0 0 calc(50% - 30px); /* Always two per row */
+  flex: 0 0 48%; /* 2 cards per row always */
+  max-width: 48%;
   box-sizing: border-box;
-  padding: 25px;
+  padding: 20px;
   border-radius: 8px;
   text-align: center;
   box-shadow: 0 0 0 rgba(255, 223, 4, 0);
@@ -197,7 +198,7 @@ section {
 }
 
 .service-card:hover {
-  box-shadow: 0 0 20px 6px rgba(255, 223, 4, 0.7); /* Yellow glow */
+  box-shadow: 0 0 20px 6px rgba(255, 223, 4, 0.7);
   transform: translateY(-4px);
 }
 
@@ -219,6 +220,7 @@ section {
   color: #000000;
   line-height: 1.5;
 }
+
 
 
 .why-box h3 {
