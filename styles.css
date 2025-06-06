@@ -178,34 +178,43 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  max-width: 1100px;
+  gap: 30px;
+  max-width: 1200px;
   margin: 40px auto;
-  padding: 0 15px;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .service-card {
   background-color: #fff;
-  flex: 0 1 calc(50% - 20px); /* Two per row with gap */
-  min-width: 280px;
-  max-width: 500px;
+  flex: 0 1 calc(50% - 30px); /* Two per row with gap */
   padding: 25px;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 0 0 rgba(255, 223, 4, 0);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-sizing: border-box;
+  min-width: 280px;
+  max-width: 500px;
 }
 
 .service-card:hover {
-  box-shadow: 0 0 40px 10px rgba(255, 223, 4, 0.7);
+  box-shadow: 0 0 20px 6px rgba(255, 223, 4, 0.7);
   transform: translateY(-4px);
 }
 
 .services h2 {
-  text-align: center;
   width: 100%;
-  color: #000000;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+/* Fix for very small screens: still 2 per row unless extremely narrow */
+@media (max-width: 600px) {
+  .service-card {
+    flex: 0 1 100%;
+  }
 }
 
 .service-card h3 {
@@ -217,13 +226,6 @@ section {
 .service-card p {
   color: #000000;
   line-height: 1.5;
-}
-
-/* Optional: Stop them from stacking below 320px screens */
-@media (max-width: 320px) {
-  .service-card {
-    flex: 0 1 100%;
-  }
 }
 
 
