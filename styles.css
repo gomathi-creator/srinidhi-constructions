@@ -178,16 +178,15 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
-  max-width: 1200px;
+  gap: 30px;
+  max-width: 1100px; /* Slightly increased */
   margin: 40px auto;
-  padding: 20px;
-  text-align: center;
+  padding: 0 20px; /* Add padding to balance side gaps */
 }
 
 .service-card {
   background-color: #fff;
-  width: 52%; /* wider cards, 2 per row */
+  width: 48%; /* wider cards, 2 per row */
   padding: 30px 25px;
   border-radius: 10px;
   box-shadow: 0 0 0 rgba(255, 223, 4, 0);
