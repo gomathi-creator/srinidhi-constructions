@@ -187,7 +187,8 @@ section {
 
 .service-card {
   background-color: #fff;
- width: calc(50% - 20px); /* Two cards per row, consistently */
+  flex: 0 0 calc(50% - 30px); /* Always two per row */
+  box-sizing: border-box;
   padding: 25px;
   border-radius: 8px;
   text-align: center;
@@ -196,7 +197,7 @@ section {
 }
 
 .service-card:hover {
-  box-shadow: 0 0 20px 6px rgba(255, 223, 4, 0.7);
+  box-shadow: 0 0 20px 6px rgba(255, 223, 4, 0.7); /* Yellow glow */
   transform: translateY(-4px);
 }
 
@@ -357,13 +358,4 @@ summary {
   position: relative;
   z-index: 2;
 }
-
-.tight-section {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-
 
