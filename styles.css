@@ -183,16 +183,17 @@ section {
   margin: 0 auto;
 }
 
-.service-card {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  margin: 15px;
-  width: calc(50% - 30px); /* two cards per row with spacing */
+service-card {More actions
+  flex: 0 1 calc(50% - 30px);
   box-sizing: border-box;
-  float: left;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 0 0 rgba(255, 223, 4, 0); /* No glow by default */
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid rgba(255, 193, 7, 0.3); /* Subtle warm yellow border */
+  transition: 
+    box-shadow 0.4s ease,
+    transform 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .service-card:hover {
