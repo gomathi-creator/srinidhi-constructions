@@ -198,21 +198,18 @@ section {
   transform: translateY(-4px);
 }
 
-.services-heading,
-.services h2 {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 30px;
-  color: #000;
-  padding: 0 16px; /* Optional: helps center inside narrower screens */
-}
-
 .services-heading {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
+  width: 100%;
 }
 
-
+.services-heading h2 {
+  color: #000;
+  font-size: 28px;
+  text-align: center;
+}
 
 .service-card h3 {
   color: var(--yellow);
