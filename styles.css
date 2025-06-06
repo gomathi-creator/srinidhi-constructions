@@ -53,7 +53,7 @@ body {
 }
 
 .home, .about, .services, .review, .contact {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .cta-button {
@@ -210,7 +210,7 @@ section {
 }
 
 .service-card:hover {
-  box-shadow: 0 0 20px rgba(255, 204, 0, 0.6); /* soft yellow glow */
+  box-shadow: 0 0 40px rgba(255, 204, 0, 0.6); /* soft yellow glow */
   transform: scale(1.02); /* slight zoom effect */
 }
 
