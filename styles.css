@@ -352,5 +352,12 @@ summary {
   z-index: 2;
 }
 
+.tight-section {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 
 
