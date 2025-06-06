@@ -175,20 +175,21 @@ section {
 }
 
 .services {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Always two per row */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   max-width: 1000px;
   margin: 40px auto;
   padding: 0 20px;
   box-sizing: border-box;
-  justify-items: center;
 }
 
 .service-card {
   background-color: #fff;
-  width: 100%;
-  max-width: 450px;
+  width: 45%; /* Always two per row, even on mobile */
+  min-width: 280px; /* Prevents it from shrinking too much */
+  max-width: 400px;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
