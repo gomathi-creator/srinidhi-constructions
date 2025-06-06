@@ -185,47 +185,12 @@ section {
   box-sizing: border-box;
 }
 
-.services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-}
-
 .service-card {
   background-color: #fff;
   width: 42%;
   min-width: 280px;
   padding: 20px;
   border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 0 0 rgba(255, 223, 4, 0);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.service-card:hover {
-  box-shadow: 0 0 20px 6px rgba(255, 223, 4, 0.7);
-  transform: translateY(-4px);
-}
-
-
-.service-card:hover {
-  box-shadow: 0 0 20px 6px rgba(255, 223, 4, 0.7);
-  transform: translateY(-4px);
-}
-
-
-.service-card {
-  background-color: #fff;
-  width: calc(50% - 20px);
-  max-width: 400px;
-  min-width: 250px;
-  padding: 20px;
-  border-radius: 8px;
   text-align: center;
   box-shadow: 0 0 0 rgba(255, 223, 4, 0);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
