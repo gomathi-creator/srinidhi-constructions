@@ -175,11 +175,10 @@ section {
 }
 
 .services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 40px auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -187,15 +186,11 @@ section {
 
 .service-card {
   background-color: #fff;
-  flex: 0 1 calc(50% - 30px); /* Two per row with gap */
   padding: 25px;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 0 0 rgba(255, 223, 4, 0);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
-  box-sizing: border-box;
-  min-width: 280px;
-  max-width: 500px;
 }
 
 .service-card:hover {
@@ -208,13 +203,6 @@ section {
   text-align: center;
   margin-bottom: 30px;
   color: #000;
-}
-
-/* Fix for very small screens: still 2 per row unless extremely narrow */
-@media (max-width: 600px) {
-  .service-card {
-    flex: 0 1 100%;
-  }
 }
 
 .service-card h3 {
