@@ -181,11 +181,12 @@ section {
   gap: 30px;
   max-width: 1000px;
   margin: 40px auto;
+  padding: 20px;
 }
 
 .service-card {
   background-color: #fff;
-  width: calc(50% - 30px); /* 2 per row with gap */
+  width: calc(50% - 30px); /* 2 per row with space between */
   padding: 20px;
   border-radius: 8px;
   text-align: center;
