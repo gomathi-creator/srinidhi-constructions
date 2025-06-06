@@ -178,22 +178,19 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
-  box-sizing: border-box;
+  gap: 20px;
+  padding: 20px;
 }
 
 .service-card {
-  background-color: #fff;
-  width: 42%;
-  min-width: 280px;
+  background-color: #f9f9f9;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 12px;
+  width: 45%;
+  min-width: 140px;
   text-align: center;
-  box-shadow: 0 0 0 rgba(255, 223, 4, 0);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
 }
 
 .service-card:hover {
