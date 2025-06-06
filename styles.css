@@ -80,11 +80,6 @@ body {
   color: var(--dark-blue);
 }
 
-.about {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
 .logo span {
     text-transform: uppercase !important;
     font-weight: bold !important;
