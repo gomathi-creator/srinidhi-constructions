@@ -53,7 +53,7 @@ body {
 }
 
 .home, .about, .services, .review, .contact {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .cta-button {
@@ -210,9 +210,10 @@ section {
 }
 
 .service-card:hover {
-  box-shadow: 0 0 40px rgba(255, 204, 0, 0.6); /* soft yellow glow */
-  transform: scale(1.02); /* slight zoom effect */
+  box-shadow: 0 0 25px 10px rgba(255, 223, 4, 0.7); /* bright yellow glow */
+  transition: box-shadow 0.3s ease;
 }
+
 
 /* Optional: if you want a glowing border too */
 .service-card:hover {
