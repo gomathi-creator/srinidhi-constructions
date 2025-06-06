@@ -178,6 +178,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: stretch;
   gap: 20px;
   max-width: 1000px;
   margin: 40px auto;
@@ -187,9 +188,9 @@ section {
 
 .service-card {
   background-color: #fff;
-  width: 45%; /* Always two per row, even on mobile */
-  min-width: 280px; /* Prevents it from shrinking too much */
+  width: calc(50% - 20px);
   max-width: 400px;
+  min-width: 250px;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
