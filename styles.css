@@ -309,6 +309,16 @@ summary {
   font-size: 1.2rem;
 }
 
+summary {
+  list-style: none;         /* removes list marker for some browsers */
+  cursor: pointer;          /* optional: keeps the pointer cursor on hover */
+}
+
+summary::-webkit-details-marker {
+  display: none;            /* hides the arrow in Chrome, Safari, Edge */
+}
+
+
 .project-list {
   margin-top: 1rem;
   padding-left: 1rem;
