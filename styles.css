@@ -211,6 +211,10 @@ section {
   line-height: 1.5;
 }
 
+/* Optional: if you want a glowing border too */
+.service-card:hover {
+  border: 2px solid #ffcc00;
+}
 
 
 .why-box h3 {
